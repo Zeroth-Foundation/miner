@@ -1,0 +1,2 @@
+# miner
+zeroth blockchain miner
