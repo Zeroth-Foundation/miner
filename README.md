@@ -6,5 +6,7 @@ zeroth blockchain miner
 
 # How to CPU mining
 ~~./ethminer -R --display-interval 30 --cpu --cl-local-work 64 -P stratum2+tcp://{WALLET}@zeroth.ace1pool.com:8008 -v3~~
+
+# update ( 2025.08.05 )
 ./zeroth_miner_0.1.0
 
