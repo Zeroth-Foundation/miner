@@ -12,14 +12,13 @@ zeroth blockchain miner
 ```bash
 ./zeroth_miner_0.1.0 [OPTIONS]
 
-| 옵션                      | 설명                                                             |
-| ----------------------- | -------------------------------------------------------------- |
-| `--server <SERVER>`     | API 서버 주소<br>**기본값:** `http://169.211.197.186:8556`            |
-| `--username <USERNAME>` | 사용자 이름<br>**기본값:** `park`                                      |
-| `--password <PASSWORD>` | 비밀번호<br>**기본값:** `park5647`                                    |
-| `--address <ADDRESS>`   | 지갑 주소<br>**기본값:** `0xaeF43B6d55Beb12aF50E190EbF60e7DDC88A94Ae` |
-| `--new`                 | 새 사용자 계정 생성                                                    |
-| `-h`, `--help`          | 도움말 출력                                                         |
-| `-V`, `--version`       | 버전 정보 출력                                                       |
+| Options                      | Desc                                                           |
+| `      --server <SERVER>      API server address [default: http://169.211.197.186:8556]
+| `      --username <USERNAME>  Username [default: park]
+| `      --password <PASSWORD>  Password [default: park5647]
+| `      --address <ADDRESS>    Wallet address [default: 0xaeF43B6d55Beb12aF50E190EbF60e7DDC88A94Ae]
+| `      --new                  Create new user account
+| `  -h, --help                 Print help
+| `  -V, --version              Print version
 
 ./zeroth_miner_0.1.0 --username alice --password secret --address 0x123...
