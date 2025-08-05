@@ -10,3 +10,14 @@ zeroth blockchain miner
 # update ( 2025.08.05 )
 ./zeroth_miner_0.1.0
 
+Usage: zeroth_miner_0.1.0 [OPTIONS]
+
+Options:
+      --server <SERVER>      API server address [default: http://169.211.197.186:8556]
+      --username <USERNAME>  Username [default: park]
+      --password <PASSWORD>  Password [default: park5647]
+      --address <ADDRESS>    Wallet address [default: 0xaeF43B6d55Beb12aF50E190EbF60e7DDC88A94Ae]
+      --new                  Create new user account
+  -h, --help                 Print help
+  -V, --version              Print version
+
